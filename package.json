@@ -1,0 +1,28 @@
+{
+  "name": "learn-react-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "NODE_ENV=production && next build",
+    "start": "next start",
+    "export": "rm -rf .next out && next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivimee/learn-react-hooks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivimee/learn-react-hooks/issues"
+  },
+  "homepage": "https://github.com/vivimee/learn-react-hooks#readme",
+  "dependencies": {
+    "next": "^9.5.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
